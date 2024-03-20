@@ -1,0 +1,40 @@
+# Potential Ideas for the Course
+
+- Getting Inside the mind of a FRC Robot Programmer
+  - How do I start a task?
+  - How do I approach a problem that arised and fix it?
+- Functional Interfaces
+  - brief introduciton to Java functional interfaces as passing down functions instead of just objects
+- odometry for dummies
+  - What is Odometry?
+  - Why does my odometry suck?
+- swerve drive for dummies
+  - What is Swerve?
+  - Breaking out the Swerve Module as a class (why?)
+  - Programming the drive motors
+  - Programming the turn motors (oh boy so2 angles here we go)
+  - Using WPILib to tell the swerve modules what to
+  - Swerve Pains to look out for
+    - help I'm driving okay but my robot is going in "random" directions when I try to run auto!
+- what is a PID (feedback) loop and why/when - should i use one
+- What is Feedforward control and why/when should we use it
+  - basics of FF control
+  - SysID exists but is garbage
+  - does ReCalc work? almost I think
+  - FF Tuning a Flywheel
+  - FF tuning for an Arm
+- FSMs (Finite State Machines) in FRC
+    - What is an enumeration or `enum`?
+- Creating Clean, Modular, Maintainable 
+    - Writing Multiple Subsystems and Multiple Commands
+    - Switching between different Auto routines cleanly
+    - Dependency Injection
+- Chaining Commands Together: Advanced Command Usage and Common pitfalls
+    - Look out for Command Requirements ~~can be the worst~~
+    - Common Command methods to chain other commands
+      - Parallel vs Sequential Command groups
+      - Parallel Race and Deadline groups
+      - Repeat Commands?
+      - honestly a lot of [these methods](https://github.wpilib.org/allwpilib/docs/release/java/edu/wpi/first/wpilibj2/command/Command.html) are really really cool
+    - Using `Subsystem` methods to make short but elegant commands in the Subsystem portion
+    - 

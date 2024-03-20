@@ -1,6 +1,9 @@
 getting inside the mind of a robot programmer
 odometry for dummies
 swerve drive for dummies
-what is a PID loop and why/when should i use one
+what is a PID (feedback) loop and why/when should i use one
+What is Feedforward control and why/when should we use it
 FSMs in FRC
 Creating Clean, Modular, Maintainable code
+Codebase go brrr with Dependency Injection
+Chaining Commands Together: Advanced Command Usage and Common pitfalls
